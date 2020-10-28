@@ -1,0 +1,88 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,700|Poppins:300,400,500,700");
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+color: grey;
+background-color: white;
+font-family: "roboto", sans serif;
+font-weight: 300
+font-size: 22px;
+line-height: 15px
+}
+ h1, h3{
+  color: #29b5a3;
+  font-family: "Poppins", sans serif;
+  font-size: 20px;
+  line-height: 18px;
+ }
+
+ a{
+  text-decoration: none;
+  color: #086997;
+ }
+
+a:hover{
+  color: grey;
+}
+
+div {
+  display: block;
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.btn-blue{
+  background-color: #086997;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.card-white {
+  background: white;
+  padding:40px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px;
+  text-align: center;
+}
+
+#avatar{
+  border-radius: 500px;
+  width: 150px
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline i{
+  font-size: 25px;
+}
+
+.list-inline{
+  padding-left: 0px!important;
+}
+
